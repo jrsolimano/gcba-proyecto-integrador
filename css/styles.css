@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    
+    
+}
+
+header{
+
+    background: #353a40;
+    height: 100px;
+}
+
+header ul{
+
+    display: flex;
+    gap: 20px;
+    margin-bottom: 0;
+
+}
+
+header ul li a{
+
+    text-decoration: none;
+    color: #9a9996;
+    font-size: 18px;
+}
+
+header ul li:first-child a{
+
+    color: #fff;
+}
+
+header ul li:last-child a{
+
+    color: #2ba345;
+}
+
+.logo img{
+
+    width: 120px;
+    
+}
+
+
+/* HERO */
+
+#hero{
+
+    background-image: url('../assets/ba1.jpg');
+    background-size: cover;
+    background-position-y: center;
+    height: 500px;
+    text-align: right;
+    margin-bottom: 20px;
+
+}
+
+#hero h1{
+
+    color: #fff;
+}
+
+#hero p{
+
+    color: #fff;
+}
+
+
+.oradores-title{
+
+    text-align: center;
+}
+
+.card{
+
+    border-radius:0px
+}
